@@ -9,7 +9,10 @@ const startState = {
 };
 
 // Actions
+
+// Action Creator
 export const initialCards = () => {
+  // Action
   return {
     type: 'INITIALCARDS',
     cards: data,
